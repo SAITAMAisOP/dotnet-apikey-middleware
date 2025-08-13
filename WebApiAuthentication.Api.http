@@ -1,0 +1,16 @@
+@Api_HostAddress = https://localhost:7277
+
+GET {{Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
+
+GET {{Api_HostAddress}}/weatherforecast/
+    ?X-ApiKey=pYoVfMx1UDg64OMWIkPEewnOri3dHpy6klDm7tzodXILSnyYdZLut6/f1nPkqXhOqI0CpMUb1UfMEJg8pjI0Yw==
+Accept: application/json
+
+###
+
+GET {{Api_HostAddress}}/weatherforecast/
+X-ApiKey: pYoVfMx1UDg64OMWIkPEewnOri3dHpy6klDm7tzodXILSnyYdZLut6/f1nPkqXhOqI0CpMUb1UfMEJg8pjI0Yw==
+Accept: application/json
